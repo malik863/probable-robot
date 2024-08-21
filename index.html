@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="describing project overview">
+    <title>Space-Travel</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="assets/meteorite_838036.png">
+</head>
+<body>
+
+    <div class="logo">
+        <img src="assets/meteorite_838036.png" style="width: 15%;">
+        <h1 class="logo">Space Travel</h1>
+    </div>
+    
+    
+    <div class="container">
+
+        <h1>Engineer Space Trip Registration</h1>
+
+    <form id="registration-form">
+        <label>Full name</label>
+        <input type="text" id="name" class="name" name="name" placeholder="Enter your name" required/>
+
+        <label>Email</label>
+        <input type="email" id="email" class="email" name="email" placeholder="Enter your email" required>
+
+
+        
+
+        <label class="labels">Nationality</label>
+        <select name="" id="" >
+            <option value="" disabled selected>select ur country</option>
+            <option value="egypt">egypt</option>
+            <option value="frnace">France</option>
+            <option value="romania">Romania</option>
+            <option value="saudi arabia">Saudi arabia</option>
+
+        </select>
+
+        <br>
+        
+
+        <label> Experience level</label>
+        <div class="radio-group">
+
+
+            <label for="">junior</label>
+            <input type="radio" id="junior" name="experience" value="junior">
+
+            <label for="">Mid</label>
+            <input type="radio" id="mid" name="experience" value="mid">
+
+            <label for="">Senior</label>
+            <input type="radio" id="Senior" name="experience" value="Senior">
+
+        </div>
+        
+        <br>
+
+        <label for="">why do you want explore space</label>
+        <textarea name="motivational-q" id="motivational-q" rows="10" cols="100" placeholder="Please answer our question"></textarea>
+
+        <div class="checkbox-group">
+            <input type="checkbox" id="consent" name="content" required>
+            <label style="margin-top: 18px;" for="content"> i consent to having my data stored for this project</label>
+        </div>
+
+        <button type="submit" > submit</button>
+    </form>
+    </div>
+
+    
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
